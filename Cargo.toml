@@ -6,6 +6,7 @@ edition = "2024"
 [dependencies]
 smtp-proto = "0.1"
 reqwest = { version = "0.12" }
+tokio = { version = "1", features = ["full"] }
 
 [dev-dependencies]
 lettre = "0.11"
